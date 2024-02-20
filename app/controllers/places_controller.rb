@@ -8,8 +8,8 @@ class PlacesController < ApplicationController
 
     def show
       # find a Company
-      @places = Place.find_by({"id" => params["id"]})
-     
+      @places = Place.find_by({"id" => 1})
+      #@places = Place.find_by({"id" => params["id"]})
       # render companies/show view with details about Company
     end
   
