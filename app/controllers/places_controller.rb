@@ -19,13 +19,13 @@ class PlacesController < ApplicationController
   
     def create
       # start with a new Company
-      @Place = Place.new
+      @place = Place.new
       # assign user-entered form data to Company's columns
-      @Place["name"] = params["name"]
+      @place["name"] = params["name"]
       # save Company row
-      @Place.save
+      @place.save
       # redirect user
-      redirect_to "/Places"
+      redirect_to "/places"
     end
 
 end
