@@ -29,4 +29,4 @@ Mexico_city_1["place_id"] = Mexico_City["id"]
 Mexico_city_1.save
 
 puts "There are now #{Place.all.count} places"
-puts "There are now #{Entry.all.count} enrties"
+#puts "There are now #{Entry.all.count} enrties"
