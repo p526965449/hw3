@@ -2,12 +2,18 @@
 
 <ul>
   <% for entry in @entries %>
-    <li>
 
-      <%= entry["title"] %>
-      <%= entry["description"] %>
+  <h2><%= entry["title"] %></h2>
+
+<ul>
+
+    <li>  
       <%= entry["posted_on"] %>
-      <%= entry["place_id"] %>
+
+    <li> 
+      <%= entry["description"] %>
+      
+</ul>   
      
     </li>
   <% end %>
