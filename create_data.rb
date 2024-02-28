@@ -24,7 +24,7 @@ Amsterdam.save
 Mexico_city_1 = Entry.new
 Mexico_city_1["title"] = "Ate tacos"
 Mexico_city_1["description"] = "It was good but expensive"
-Mexico_city_1["posted_on"] = "02072024"
+Mexico_city_1["posted_on"] = 02-07-2024
 Mexico_city_1["place_id"] = Mexico_City["id"]
 Mexico_city_1.save
 
